@@ -7,6 +7,6 @@ venv/
 .DS_Store
 
 # Data: raw dataset, generated outputs and cached map outlines are not committed
-data/*.csv
+# data/*.csv
 data/*.geojson
 !data/README.md
