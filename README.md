@@ -96,7 +96,7 @@ Tested with Python 3.12, pandas 3.0, numpy 2.5, matplotlib 3.11, seaborn 0.13, S
 
 ## Acknowledgements
 
-Course project completed with peer discussion — classmates' questions about imputation (neighbour-based fills, group-wise fills, data leakage) directly shaped the decisions and the experiment above. Developed with assistance from Claude (Anthropic).
+Course project completed with peer discussion — classmates' questions about imputation (neighbour-based fills, group-wise fills, data leakage) directly shaped the decisions and the experiment above. 
 
 ## License
 
