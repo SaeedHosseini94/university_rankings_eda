@@ -4,6 +4,8 @@ An end-to-end EDA of a 1,000-university ranking dataset (the layout and indicato
 
 ![World map](images/world_map.png)
 
+📓 Also on Kaggle: (https://www.kaggle.com/code/ssaeedhm/eda-world-university-rankings-2018-2019)
+
 ## What's in this project
 
 | Step | What is done |
@@ -77,8 +79,8 @@ Following a discussion with classmates, four fill methods were compared:
 ## How to run
 
 ```bash
-git clone <your-repo-url>
-cd <your-repo>
+git clone https://github.com/SaeedHosseini94/REPO.git
+cd REPO
 python -m venv .venv && source .venv/bin/activate        # Windows: .venv\Scripts\activate
 pip install -r requirements.txt
 
@@ -92,11 +94,13 @@ Tested with Python 3.12, pandas 3.0, numpy 2.5, matplotlib 3.11, seaborn 0.13, S
 
 ## Data
 
+Source: [Kaggle dataset](https://www.kaggle.com/datasets/alifarajnia/eighteen-nineteen-university-datasets)
+
 `eighteen_nineteen_university_datasets.csv` — 1,000 rows × 12 columns: `World Rank`, `Institution`, `Location`, `National Rank`, seven indicator ranks (`Quality of Education`, `Alumni Employment`, `Quality of Faculty`, `Research Output`, `Quality Publications`, `Influence`, `Citations`) and `Score`. Column descriptions follow the public CWUR methodology; see `data/README.md` for details and the licence note.
 
 ## Acknowledgements
 
-Course project completed with peer discussion — classmates' questions about imputation (neighbour-based fills, group-wise fills, data leakage) directly shaped the decisions and the experiment above. 
+Course project completed with peer discussion — classmates' questions about imputation (neighbour-based fills, group-wise fills, data leakage) directly shaped the decisions and the experiment above. Developed with assistance from Claude (Anthropic).
 
 ## License
 
